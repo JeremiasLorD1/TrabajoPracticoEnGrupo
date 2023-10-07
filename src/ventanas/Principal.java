@@ -100,6 +100,19 @@ public class Principal extends javax.swing.JFrame {
         jButtoneliminar = new javax.swing.JButton();
         jButtonmodifica = new javax.swing.JButton();
         consultar = new javax.swing.JPanel();
+        cargaCientifico = new javax.swing.JPanel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        txtNombreCientifico = new javax.swing.JTextField();
+        jLabel20 = new javax.swing.JLabel();
+        txtApellidoCientifico = new javax.swing.JTextField();
+        jLabel21 = new javax.swing.JLabel();
+        txtEspecialidad = new javax.swing.JTextField();
+        jLabel22 = new javax.swing.JLabel();
+        fechaContratacion = new com.toedter.calendar.JDateChooser();
+        jLabel23 = new javax.swing.JLabel();
+        txtCantidadExperimentos = new javax.swing.JTextField();
+        btnCargarCient = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -171,7 +184,7 @@ public class Principal extends javax.swing.JFrame {
             .addGroup(inicioLayout.createSequentialGroup()
                 .addGap(99, 99, 99)
                 .addComponent(jLabel1)
-                .addContainerGap(349, Short.MAX_VALUE))
+                .addContainerGap(374, Short.MAX_VALUE))
         );
         inicioLayout.setVerticalGroup(
             inicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -288,7 +301,7 @@ public class Principal extends javax.swing.JFrame {
                             .addGroup(cargarExperimentoLayout.createSequentialGroup()
                                 .addGap(157, 157, 157)
                                 .addComponent(jLabel13)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 90, Short.MAX_VALUE)
                         .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(33, 33, 33))
         );
@@ -409,7 +422,7 @@ public class Principal extends javax.swing.JFrame {
             .addGroup(cargarEquipoLayout.createSequentialGroup()
                 .addGap(261, 261, 261)
                 .addComponent(jLabel14)
-                .addContainerGap(395, Short.MAX_VALUE))
+                .addContainerGap(439, Short.MAX_VALUE))
         );
         cargarEquipoLayout.setVerticalGroup(
             cargarEquipoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -489,7 +502,7 @@ public class Principal extends javax.swing.JFrame {
                             .addComponent(tipo1, javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(modificaLayout.createSequentialGroup()
                                 .addComponent(fechaInicio1, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 251, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 295, Short.MAX_VALUE)
                                 .addGroup(modificaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel12)
                                     .addComponent(fechaFin1, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -547,7 +560,7 @@ public class Principal extends javax.swing.JFrame {
         consultar.setLayout(consultarLayout);
         consultarLayout.setHorizontalGroup(
             consultarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 806, Short.MAX_VALUE)
+            .addGap(0, 850, Short.MAX_VALUE)
         );
         consultarLayout.setVerticalGroup(
             consultarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -555,6 +568,99 @@ public class Principal extends javax.swing.JFrame {
         );
 
         contenedor.add(consultar, "card6");
+
+        jLabel15.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        jLabel15.setText("Cargar cientifico");
+
+        jLabel19.setText("Nombre");
+
+        jLabel20.setText("Apellido");
+
+        txtApellidoCientifico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtApellidoCientificoActionPerformed(evt);
+            }
+        });
+
+        jLabel21.setText("Especialidad");
+
+        txtEspecialidad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtEspecialidadActionPerformed(evt);
+            }
+        });
+
+        jLabel22.setText("Fecha de Contratacion");
+
+        jLabel23.setText("Cantidad de Experimentos");
+
+        btnCargarCient.setText("Cargar ");
+
+        javax.swing.GroupLayout cargaCientificoLayout = new javax.swing.GroupLayout(cargaCientifico);
+        cargaCientifico.setLayout(cargaCientificoLayout);
+        cargaCientificoLayout.setHorizontalGroup(
+            cargaCientificoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(cargaCientificoLayout.createSequentialGroup()
+                .addGroup(cargaCientificoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, cargaCientificoLayout.createSequentialGroup()
+                        .addGap(326, 326, 326)
+                        .addComponent(jLabel15))
+                    .addGroup(cargaCientificoLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(cargaCientificoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(cargaCientificoLayout.createSequentialGroup()
+                                .addComponent(jLabel19)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, cargaCientificoLayout.createSequentialGroup()
+                                .addGroup(cargaCientificoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel20)
+                                    .addComponent(jLabel21)
+                                    .addComponent(txtNombreCientifico, javax.swing.GroupLayout.PREFERRED_SIZE, 179, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txtApellidoCientifico, javax.swing.GroupLayout.PREFERRED_SIZE, 179, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txtEspecialidad, javax.swing.GroupLayout.PREFERRED_SIZE, 179, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(190, 190, 190)))
+                        .addGroup(cargaCientificoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(fechaContratacion, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(txtCantidadExperimentos)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, cargaCientificoLayout.createSequentialGroup()
+                                .addGap(52, 52, 52)
+                                .addComponent(btnCargarCient, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(33, 33, 33)))
+                .addContainerGap(296, Short.MAX_VALUE))
+        );
+        cargaCientificoLayout.setVerticalGroup(
+            cargaCientificoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(cargaCientificoLayout.createSequentialGroup()
+                .addGap(24, 24, 24)
+                .addComponent(jLabel15)
+                .addGap(18, 18, 18)
+                .addGroup(cargaCientificoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel19)
+                    .addComponent(jLabel22))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(cargaCientificoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtNombreCientifico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(fechaContratacion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(27, 27, 27)
+                .addGroup(cargaCientificoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel20)
+                    .addComponent(jLabel23))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(cargaCientificoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtApellidoCientifico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtCantidadExperimentos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(30, 30, 30)
+                .addComponent(jLabel21)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(cargaCientificoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtEspecialidad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnCargarCient))
+                .addContainerGap(293, Short.MAX_VALUE))
+        );
+
+        contenedor.add(cargaCientifico, "card7");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -740,6 +846,14 @@ public class Principal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtPresupuestoActionPerformed
 
+    private void txtApellidoCientificoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtApellidoCientificoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtApellidoCientificoActionPerformed
+
+    private void txtEspecialidadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtEspecialidadActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtEspecialidadActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -780,15 +894,18 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JButton JbtnModificar;
     private javax.swing.JButton btnCargar;
     private javax.swing.JButton btnCargar2;
+    private javax.swing.JButton btnCargarCient;
     private javax.swing.JButton btnEnviar;
     private javax.swing.JButton btnInformacion;
     private javax.swing.JButton btnInicio;
     private javax.swing.JButton btnVolver2;
+    private javax.swing.JPanel cargaCientifico;
     private javax.swing.JPanel cargarEquipo;
     private javax.swing.JPanel cargarExperimento;
     private javax.swing.JPanel consultar;
     private javax.swing.JPanel contenedor;
     private javax.swing.JTextArea descripcion;
+    private com.toedter.calendar.JDateChooser fechaContratacion;
     private com.toedter.calendar.JDateChooser fechaFin;
     private com.toedter.calendar.JDateChooser fechaFin1;
     private com.toedter.calendar.JDateChooser fechaInicio;
@@ -805,10 +922,16 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -829,8 +952,12 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JTextField presupuesto1;
     private javax.swing.JTextField tipo1;
     private javax.swing.JTextField titulo1;
+    private javax.swing.JTextField txtApellidoCientifico;
     private javax.swing.JTextField txtAreaEspecialidad;
+    private javax.swing.JTextField txtCantidadExperimentos;
+    private javax.swing.JTextField txtEspecialidad;
     private javax.swing.JTextField txtFenomeno;
+    private javax.swing.JTextField txtNombreCientifico;
     private javax.swing.JTextField txtNombreEquipo;
     private javax.swing.JTextField txtOrganismo;
     private javax.swing.JTextField txtPresupuesto;
