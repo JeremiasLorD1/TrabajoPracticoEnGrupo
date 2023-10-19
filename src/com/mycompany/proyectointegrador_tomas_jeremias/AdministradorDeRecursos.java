@@ -34,9 +34,9 @@ public class AdministradorDeRecursos {
         listaCientifico.add(new Cientifico("Facu", "Joaquin", "inge", "222"));
         listaCientifico.add(new Cientifico("Capo", "Matias", "ijisdajidjsa", "333"));
 
-        for (Cientifico d : listaCientifico) {
-            contadorCientificos.put(d,0);
-        }
+//        for (Cientifico d : listaCientifico) {
+//            contadorCientificos.put(d,0);
+//        }
 
     }
 

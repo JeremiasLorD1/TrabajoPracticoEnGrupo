@@ -226,8 +226,8 @@ public class Principal extends javax.swing.JFrame {
 
         jLabel6.setText("Fecha Inicio");
         cargarExperimento.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, -1, -1));
-        cargarExperimento.add(jDaChInicioCientificos, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 350, 90, -1));
-        cargarExperimento.add(jDaChFechaInicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, 110, -1));
+        cargarExperimento.add(jDaChInicioCientificos, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 350, 100, -1));
+        cargarExperimento.add(jDaChFechaInicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, 130, -1));
 
         jLabel8.setText("Tipo");
         cargarExperimento.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, -1, -1));
@@ -248,7 +248,7 @@ public class Principal extends javax.swing.JFrame {
                 txtTituloActionPerformed(evt);
             }
         });
-        cargarExperimento.add(txtTitulo, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 220, -1));
+        cargarExperimento.add(txtTitulo, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 230, -1));
 
         txtPresupuesto.setText("2");
         txtPresupuesto.addActionListener(new java.awt.event.ActionListener() {
@@ -256,7 +256,7 @@ public class Principal extends javax.swing.JFrame {
                 txtPresupuestoActionPerformed(evt);
             }
         });
-        cargarExperimento.add(txtPresupuesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 120, 120, -1));
+        cargarExperimento.add(txtPresupuesto, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 120, 130, -1));
 
         txtOrganismo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -281,7 +281,7 @@ public class Principal extends javax.swing.JFrame {
                 jBtnCargarCientificoActionPerformed(evt);
             }
         });
-        cargarExperimento.add(jBtnCargarCientifico, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 350, -1, -1));
+        cargarExperimento.add(jBtnCargarCientifico, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 350, -1, -1));
 
         jBtnEnviar.setText("Enviar");
         jBtnEnviar.addActionListener(new java.awt.event.ActionListener() {
@@ -297,11 +297,11 @@ public class Principal extends javax.swing.JFrame {
                 JbtnModificarExperimentoActionPerformed(evt);
             }
         });
-        cargarExperimento.add(JbtnModificarExperimento, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 400, -1, -1));
+        cargarExperimento.add(JbtnModificarExperimento, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 400, -1, -1));
 
         jScrollPane8.setViewportView(jListMuestraExperimentos);
 
-        cargarExperimento.add(jScrollPane8, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 60, 200, 330));
+        cargarExperimento.add(jScrollPane8, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 60, 200, 330));
 
         jBtnEliminarExperimento.setText("Eliminar");
         jBtnEliminarExperimento.addActionListener(new java.awt.event.ActionListener() {
@@ -309,11 +309,11 @@ public class Principal extends javax.swing.JFrame {
                 jBtnEliminarExperimentoActionPerformed(evt);
             }
         });
-        cargarExperimento.add(jBtnEliminarExperimento, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 400, -1, -1));
+        cargarExperimento.add(jBtnEliminarExperimento, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 400, -1, -1));
 
         jLabel31.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel31.setText("Experimentos Cargados");
-        cargarExperimento.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 10, -1, -1));
+        cargarExperimento.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 10, -1, -1));
 
         jScrollPane6.setViewportView(jListEquipos);
 
@@ -333,12 +333,12 @@ public class Principal extends javax.swing.JFrame {
 
         jScrollPane7.setViewportView(jListCientificos);
 
-        cargarExperimento.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 230, 170, 100));
+        cargarExperimento.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 230, 190, 100));
 
         jLabel30.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel30.setText("Cargar Cientifico");
         cargarExperimento.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 200, -1, -1));
-        cargarExperimento.add(jDaChFechaFin, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 230, 110, -1));
+        cargarExperimento.add(jDaChFechaFin, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 230, 130, -1));
 
         jLabel5.setText("Titulo");
         cargarExperimento.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, -1, -1));
@@ -352,7 +352,7 @@ public class Principal extends javax.swing.JFrame {
                 jBtnEnviar2ActionPerformed(evt);
             }
         });
-        cargarExperimento.add(jBtnEnviar2, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 260, 210, 60));
+        cargarExperimento.add(jBtnEnviar2, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 260, 140, 60));
 
         contenedor.add(cargarExperimento, "card4");
 
@@ -717,12 +717,190 @@ public class Principal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtOrganismoModificaActionPerformed
 
+    /*private void jBtnCargarEquipoActionPerformed(java.awt.event.ActionEvent evt) {                                                 
+
+        //Equipo
+        String auxEquipo = jListEquipos.getSelectedValue();
+
+        // Control de Equipo
+        if (auxEquipo == null) {
+            JOptionPane.showMessageDialog(null, "Seleccione un Equipo valido");
+            return;
+        }
+        // LLeno la lista auxiliar para luego pasarla al experimento.
+        for (Equipo e : recursos.getListaEquipo()) {
+            if ((e.getNombre() + " - Seleccionado").equals(auxEquipo)) {
+                auxListaEquipos.remove(e);
+            }
+            if ((e.getNombre()).equals(auxEquipo)) {
+                auxListaEquipos.add(e);
+            }
+        }
+
+        //Lleno el model del jlist viendo si existe o no dentro de mis lista auxiliar.
+        DefaultListModel modelEquipo = new DefaultListModel();
+
+        for (Equipo e : recursos.getListaEquipo()) {
+            if (auxListaEquipos.contains(e)) {
+                modelEquipo.addElement(e.getNombre() + " - Seleccionado");
+            } else {
+                modelEquipo.addElement(e.getNombre());
+            }
+
+        }
+
+        jListEquipos.setModel(modelEquipo);
+
+//        // Guardo en la lista auxiliar de equipo
+//        Equipo equipo = new Equipo(auxEquipo);
+//        auxListaEquipos.add(equipo);
+        repaint();
+        revalidate();
+
+    }  */
     private void jBtnSeleccionEquipoModificaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnSeleccionEquipoModificaActionPerformed
-        // TODO add your handling code here:
+        //Equipo
+        String auxEquipo = jListEquipoModifica.getSelectedValue();
+
+        // Control de Equipo
+        if (auxEquipo == null) {
+            JOptionPane.showMessageDialog(null, "Seleccione un Equipo valido");
+            return;
+        }
+        // LLeno la lista auxiliar para luego pasarla al experimento.
+        for (Equipo e : recursos.getListaEquipo()) {
+            if ((e.getNombre() + " - Seleccionado").equals(auxEquipo)) {
+                auxListaEquipos.remove(e);
+            }
+            if ((e.getNombre()).equals(auxEquipo)) {
+                auxListaEquipos.add(e);
+            }
+        }
+
+        //Lleno el model del jlist viendo si existe o no dentro de mis lista auxiliar.
+        DefaultListModel modelEquipo = new DefaultListModel();
+
+        for (Equipo e : recursos.getListaEquipo()) {
+            if (auxListaEquipos.contains(e)) {
+                modelEquipo.addElement(e.getNombre() + " - Seleccionado");
+            } else {
+                modelEquipo.addElement(e.getNombre());
+            }
+
+        }
+
+        jListEquipoModifica.setModel(modelEquipo);
+
+//        // Guardo en la lista auxiliar de equipo
+//        Equipo equipo = new Equipo(auxEquipo);
+//        auxListaEquipos.add(equipo);
+        repaint();
+        revalidate();
     }//GEN-LAST:event_jBtnSeleccionEquipoModificaActionPerformed
 
-    private void jBtnCargarCientificoModificaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnCargarCientificoModificaActionPerformed
+    /*  private void jBtnCargarCientificoActionPerformed(java.awt.event.ActionEvent evt) {                                                     
+
+        // Cientifico 
+        String auxCientifico = jListCientificos.getSelectedValue();
+
+        // Control de cientifico 
+        if (auxCientifico == null) {
+            JOptionPane.showMessageDialog(null, "Seleccione un cientifico valido");
+            return;
+        }
+
+        // Control de Fecha
+        Date auxFecha = jDaChInicioCientificos.getDate();
+        if (jDaChInicioCientificos.getDate() == null) {
+            JOptionPane.showMessageDialog(null, "Error: Ingresa un valor de fecha válido.");
+            return;
+            // Manejar el caso en que las fechas sean nulas, por ejemplo, mostrar un mensaje de error
+        }
+
+// LLeno la lista auxiliar para luego pasarla al experimento.
+        for (Cientifico e : recursos.getListaCientifico()) {
+            if (auxCientifico.contains(e.getDni()) && auxCientifico.contains("-")) {
+                auxListaCientifico.remove(e);
+            }
+            if ((e.getNombre() + " " + e.getApellido() + " " + e.getDni()).equals(auxCientifico)) {
+                e.setContratacion(auxFecha);
+                auxListaCientifico.add(e);
+            }
+        }
+        // Lleno el model del jlist viendo si existe o no dentro de mis lista auxiliar.
+//        DefaultListModel modelEquipo = new DefaultListModel();
+        DefaultListModel modelCientifico = new DefaultListModel();
+        for (Cientifico e : recursos.getListaCientifico()) {
+            if (auxListaCientifico.contains(e)) {
+                modelCientifico.addElement(e.getNombre() + " " + e.getApellido() + " " + e.getDni() + " - " + e.getContratacion());
+            } else {
+                modelCientifico.addElement(e.getNombre() + " " + e.getApellido() + " " + e.getDni());
+            }
+        }
+
+        jListCientificos.setModel(modelCientifico);
+
+        // Repintar contenedor
+        contenedor.repaint();
+        contenedor.revalidate();
+
         // TODO add your handling code here:
+
+    }  */
+    
+    private void jBtnCargarCientificoModificaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnCargarCientificoModificaActionPerformed
+         for(Cientifico elemento: auxListaCientifico){
+             int i=0;
+             System.out.println("Valores del cientifico "+(i++));
+             System.out.println(elemento.getNombre()+elemento.getApellido()+elemento.getDni()+elemento.getEspecialidad());
+         }
+        // Cientifico 
+        String auxCientifico = jListCientificoModifica.getSelectedValue();
+
+        // Control de cientifico 
+        if (auxCientifico == null) {
+            JOptionPane.showMessageDialog(null, "Seleccione un cientifico valido");
+            return;
+        }
+
+        // Control de Fecha
+        Date auxFecha = jDaChInicioCientificos1.getDate();
+        if (jDaChInicioCientificos1.getDate() == null) {
+            JOptionPane.showMessageDialog(null, "Error: Ingresa un valor de fecha válido.");
+            return;
+            // Manejar el caso en que las fechas sean nulas, por ejemplo, mostrar un mensaje de error
+        }
+        
+// LLeno la lista auxiliar para luego pasarla al experimento.
+        for (Cientifico e : recursos.getListaCientifico()) {
+            if (auxCientifico.contains(e.getDni()) && auxCientifico.contains("-")) {
+                auxListaCientifico.remove(e);
+            }
+            if ((e.getNombre() + " " + e.getApellido() + " " + e.getDni()).equals(auxCientifico)) {
+                e.setContratacion(auxFecha);
+                auxListaCientifico.add(e);
+            }
+        }
+        
+        // Lleno el model del jlist viendo si existe o no dentro de mis lista auxiliar.
+//        DefaultListModel modelEquipo = new DefaultListModel();
+        DefaultListModel modelCientifico = new DefaultListModel();
+        for (Cientifico e : recursos.getListaCientifico()) {
+            if (auxListaCientifico.contains(e)) {
+                modelCientifico.addElement(e.getNombre() + " " + e.getApellido() + " " + e.getDni() + " - " + e.getContratacion());
+            } else {
+                modelCientifico.addElement(e.getNombre() + " " + e.getApellido() + " " + e.getDni());
+            }
+        }
+
+        jListCientificos.setModel(modelCientifico);
+
+        // Repintar contenedor
+        contenedor.repaint();
+        contenedor.revalidate();
+
+        // TODO add your handling code here:
+
     }//GEN-LAST:event_jBtnCargarCientificoModificaActionPerformed
 
     private void btnEnviarModificaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviarModificaActionPerformed
@@ -1107,10 +1285,10 @@ public class Principal extends javax.swing.JFrame {
         DefaultListModel modelCientifico = new DefaultListModel();
         for (Cientifico c : recursos.getListaCientifico()) {
             if (aux.getListaCientifico().contains(c)) {
-                modelCientifico.addElement(c.getNombre() + " " + c.getApellido() + "-" + c.getContratacion());
+                modelCientifico.addElement(c.getNombre() + " " + c.getApellido() +" "+c.getDni()+ "-" + c.getContratacion());
                 System.out.println("Hola");//NO ENTRA A ESTO
             } else {
-                modelCientifico.addElement(c.getNombre() + " " + c.getApellido());
+                modelCientifico.addElement(c.getNombre() + " " + c.getApellido()+" "+c.getDni());
             }
         }
         jListCientificoModifica.setModel(modelCientifico);
@@ -1124,7 +1302,7 @@ public class Principal extends javax.swing.JFrame {
         auxListaEquipos = (ArrayList<Equipo>) (listaExperimentosBioFis.get(auxIndex).getListaEquipo()).clone();
         // LLeno la lista auxiliar para luego pasarla al experimento que voy a modificar.
         auxListaCientifico = (ArrayList<Cientifico>) (listaExperimentosBioFis.get(auxIndex).getListaCientifico()).clone();
-
+        
         contenedor.repaint();
         contenedor.revalidate();
     }//GEN-LAST:event_JbtnModificarExperimentoActionPerformed
